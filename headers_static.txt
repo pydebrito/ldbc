@@ -1,0 +1,8 @@
+organisation id|type|name|url
+place id|name|url|type
+tagclass id|name|url
+tag id|name|url
+place_isPartOf_place in_id|out_id
+tagclass_isSubclassOf_tagclass in_id|out_id
+tag_hasType_tagclass tag_id|tag_class_id
+organisation_isLocatedIn_place organization_id|place_id
